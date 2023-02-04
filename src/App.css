@@ -1,19 +1,48 @@
+body{
+  margin: 0%;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
 .btn{
+  width: 300px;
   border-radius: 30px;
   padding: 20px;
   font-family: sans-serif;
   margin: 5px;
-  border-color: #d9d9f2;
+  border-color: transparent;
   background-color: #d9d9f2;
+  display: flex;
 }
 
 .round {
-  padding-right: 10px;
+  margin-right: 10px;
+  padding: 5px;
   background-color: #4040bf;
-border-radius: 50%;
-text-align: center;
-color: white;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  width: 25px;
+  height: 25px;
 }
+
 .btn:hover {
   border-color:#4040bf ;
+}
+.App{
+  display: flex;
+}
+.blank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 17%;
+  width: 100%;
+}
+.video{
+  margin: 0%;
 }
